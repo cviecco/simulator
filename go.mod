@@ -1,6 +1,6 @@
 module github.com/cviecco/simulator
 
-go 1.25.5
+go 1.25.3
 
 require (
 	github.com/google/go-tpm v0.9.8
