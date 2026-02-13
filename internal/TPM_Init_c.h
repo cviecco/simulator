@@ -33,7 +33,7 @@
  *  SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 #include "Tpm.h"
-#include "_TPM_Init_fp.h"
+#include "TPM_Init_fp.h"
 
  // This function is used to process a _TPM_Init indication.
 LIB_EXPORT void
