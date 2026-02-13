@@ -12,10 +12,10 @@
 #define _X509_SPT_
 
 // Google sources
-//#include "Clock.c"
-//#include "Entropy.c"
-//#include "NVMem.c"
-//#include "Run.c"
+#include "Clock_c.h"
+#include "Entropy_c.h"
+#include "NVMem_c.h"
+#include "Run_c.h"
 
 // Most of the sources can be included in any order. However, this file has to
 // be included first as it instantiates all of the libraries global variables.
