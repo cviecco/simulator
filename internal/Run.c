@@ -55,7 +55,7 @@
 #include "Manufacture_fp.h"
 #include "Platform.h"
 #include "Platform_fp.h"
-#include "_TPM_Init_fp.h"
+#include "TPM_Init_fp.h"
 
 jmp_buf s_jumpBuffer;
 

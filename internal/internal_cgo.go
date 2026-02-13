@@ -3,6 +3,8 @@
 
 package internal
 
+// // Help Build system find aes libs
+// #cgo CFLAGS: -I /usr/include
 // // Directories containing .h files in the simulator source
 // // Store NVDATA in memory, and we don't care about updates to failedTries.
 // #cgo CFLAGS: -DVTPM=NO -DSIMULATION=NO -DUSE_DA_USED=NO
