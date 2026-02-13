@@ -3,6 +3,11 @@
 // as the Go code. Thus to allow us to use the Mircosoft code as a submodule, we
 // have to textually include all of the sources into this file.
 
+// adding pragmas to disable warnings
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wshift-sign-overflow"
+#pragma clang diagnostic ignored "-Wimplicit-fallthrough"
+
 #define _CRYPT_HASH_C_
 #define _X509_SPT_
 
@@ -205,3 +210,5 @@
 #include "ResponseCodeProcessing_c.h"
 #include "TpmFail_c.h"
 #include "TpmSizeChecks_c.h"
+
+#pragma clang diagnostic pop
