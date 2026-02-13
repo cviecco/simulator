@@ -26,7 +26,8 @@ import (
 
 	"github.com/cviecco/simulator/internal"
 	_ "github.com/cviecco/simulator/internal/Ossl"
-	_ "github.com/cviecco/simulator/internal/src"
+
+	//_ "github.com/cviecco/simulator/internal/src"
 	"github.com/google/go-tpm/legacy/tpm2"
 )
 

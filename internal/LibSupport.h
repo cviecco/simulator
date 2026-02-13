@@ -57,7 +57,7 @@
 
 // These macros use the selected libraries to the proper include files. 
 #define LIB_QUOTE(_STRING_) #_STRING_
-#define LIB_INCLUDE2(_LIB_, _TYPE_) LIB_QUOTE(_LIB_/TpmTo##_LIB_##_TYPE_.h)
+#define LIB_INCLUDE2(_LIB_, _TYPE_) LIB_QUOTE(TpmTo##_LIB_##_TYPE_.h)
 #define LIB_INCLUDE(_LIB_, _TYPE_) LIB_INCLUDE2(_LIB_, _TYPE_)
 
 // Include the options for hashing and symmetric. Defer the load of the math package
