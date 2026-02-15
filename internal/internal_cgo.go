@@ -32,6 +32,10 @@ package internal
 // #cgo darwin,amd64 LDFLAGS: -L/usr/local/opt/openssl/lib
 // #cgo darwin,arm64 CFLAGS: -I/opt/homebrew/opt/openssl/include
 // #cgo darwin,arm64 LDFLAGS: -L/opt/homebrew/opt/openssl/lib
+// // MacPort installs libs in /opt/local/include
+// #cgo CFLAGS: -I /opt/local/include
+// // Flags to find OpenSSL in port intallation on macOS
+// #cgo darwin,arm64 LDFLAGS: -L /opt/local/lib
 // // Flags to find OpenSSL installation on Windows (default install location)
 // #cgo windows CFLAGS: -I"C:/Program Files/OpenSSL-Win64/include"
 // #cgo windows LDFLAGS: -L"C:/Program Files/OpenSSL-Win64/lib"
